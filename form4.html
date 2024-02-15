@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+
+    <style>
+        h3{
+            color: orangered;
+        }
+    </style>
+</head>
+
+<body bgcolor="#9ff50a">
+    <center>
+    <h3>Personal Details</h3>
+
+    <form action="/action.php">
+        Name:&nbsp; <input type="text">
+        <br><br>
+        Password:&nbsp; <input type="password">
+        <br><br>
+        E-mail id:&nbsp; <input type="email">
+        <br><br>
+        Gender:&nbsp; 
+        <input type="radio">Male
+        <input type="radio">Female
+        <br><br>
+        Contact#:&nbsp; <input type="text">
+    
+    <h3>Educational Qualification</h3>
+
+    <form>
+        Degree:&nbsp; 
+        <select name="degree">
+            <option value="degree">--Select Group-- &nbsp;&nbsp;</option>
+         </select>
+         <br><br>
+
+         Engineering:&nbsp;
+         <select name="branch">
+            <option value="branch">--Select Group-- &nbsp;&nbsp;</option>
+         </select>
+         <br><br>
+
+         Hobbies:&nbsp;
+         <input type="checkbox">Playing chess
+        <input type="checkbox">Reading Books
+        <br><br>
+    </form>
+
+    <h3>Address</h3>
+    <br>
+    <textarea name="feedback" placeholder="" rows="5" cols="50"></textarea>
+
+    <br><br>
+    Attach Resume: <input type="file">
+    <br><br>
+    <input type="submit">
+
+    </center>
+</body>
+
+</html>
